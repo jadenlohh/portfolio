@@ -5,3 +5,13 @@ h5 {
 .experience-date, .experience-description {
   color: #4e4e4e;
 }
+
+@media (max-width: 575.98px)  {
+  .section-title {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 253, 250, 0.96);
+    padding: 1rem 0;
+  }
+}
+

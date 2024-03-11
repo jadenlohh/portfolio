@@ -6,12 +6,15 @@ import Experience from './components/experience/Experience';
 
 function App() {
   return (
-    <div className='d-flex justify-content-center'>
+    <div className='d-md-flex justify-content-center'>
       <div className='app'>
         <Navbar />
-        <Hero />
-        <AboutMe />
-        <Experience />
+        
+        <main>
+          <Hero />
+          <AboutMe />
+          <Experience />
+        </main>
       </div>
     </div>
   );

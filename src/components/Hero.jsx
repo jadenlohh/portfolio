@@ -5,9 +5,9 @@ import '../styles/hero.css';
 
 const Hero = () => {
   return (
-    <div className='container hero my-4'>
+    <div className='container hero my-5'>
       <div className='row'>
-        <div className='col-6 text-start'>
+        <div className='col-md-6 col-sm-12 text-start'>
           <div className='d-flex flex-column justify-content-center h-100'>
             <div>
               <h1>Jaden Loh</h1>
@@ -21,7 +21,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className='col-6 text-end'>
+        <div className='col-md-6 col-sm-12 text-end mt-5'>
           <img className='img-fluid portrait' src={Portrait} />
         </div>
       </div>
