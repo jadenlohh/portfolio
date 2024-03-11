@@ -1,0 +1,9 @@
+a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a span {
+  font-size: 14px;
+}
