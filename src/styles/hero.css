@@ -8,12 +8,12 @@
 
 .portrait {
   border-radius: 10px;
-  width: 60%;
+  width: 70%;
 }
 
 .btn {
   border: 1px solid black !important;
-  box-shadow: -5px 5px #666 !important;
+  box-shadow: -5px 5px #555 !important;
   transform: translate(0, 0);
   width: 75% !important;
 }
