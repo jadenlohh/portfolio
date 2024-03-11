@@ -5,10 +5,10 @@ import '../styles/hero.css';
 
 const Hero = () => {
   return (
-    <div className='container my-4'>
+    <div className='container hero my-4'>
       <div className='row'>
-        <div className='col-6'>
-          <div className='d-flex flex-column justify-content-center align-items-center h-100'>
+        <div className='col-6 text-start'>
+          <div className='d-flex flex-column justify-content-center h-100'>
             <div>
               <h1>Jaden Loh</h1>
               <p>Year 3 student at Nanyang Polytechnic</p>
@@ -21,7 +21,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className='col-6 text-center'>
+        <div className='col-6 text-end'>
           <img className='img-fluid portrait' src={Portrait} />
         </div>
       </div>

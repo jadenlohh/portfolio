@@ -1,4 +1,8 @@
-h1 {
+.hero {
+  height: 80vh;
+}
+
+.hero h1 {
   font-family: 'Open Sans', sans-serif;
 }
 

@@ -4,9 +4,11 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
+    <div className='d-flex justify-content-center'>
+      <div className='app'>
+        <Navbar />
+        <Hero />
+      </div>
     </div>
   );
 }
