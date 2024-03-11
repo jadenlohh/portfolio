@@ -1,0 +1,26 @@
+h1 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.portrait {
+  border-radius: 10px;
+  width: 60%;
+}
+
+.btn {
+  border: 1px solid black !important;
+  box-shadow: -5px 5px #666 !important;
+  transform: translate(0, 0);
+}
+
+.btn:hover {
+  transform: translate(1px, -3px);
+}
+
+.btn .arrow-right {
+  opacity: 0;
+}
+
+.btn:hover .arrow-right {
+  opacity: 1;
+}
