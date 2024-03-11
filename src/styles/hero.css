@@ -40,4 +40,8 @@
   .portrait {
     width: 100%;
   }
+
+  .arrow-down-container {
+    display: none;
+  }
 }
