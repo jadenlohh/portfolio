@@ -13,9 +13,9 @@ const Hero = () => {
               <h1>Jaden Loh</h1>
               <p>Year 3 student at Nanyang Polytechnic</p>
 
-              <button className='btn shadow-none mt-3 py-3 text-start w-100 d-flex justify-content-between'>
+              <button className='btn shadow-none mt-5 py-3 text-start w-100 d-flex justify-content-between'>
                 <span>Download Resume</span>
-                <span className='arrow-right'><i class="fa-solid fa-arrow-right"></i></span>
+                <span className='arrow-right'><i className='fa-solid fa-arrow-right'></i></span>
               </button>
             </div>
           </div>
@@ -25,6 +25,10 @@ const Hero = () => {
           <img className='img-fluid portrait' src={Portrait} />
         </div>
       </div>
+
+      <span className='arrow-down-container'>
+        <i className='fa-solid fa-arrow-down'></i>
+      </span>
     </div>
   )
 }

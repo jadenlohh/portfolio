@@ -24,3 +24,17 @@ h1 {
 .btn:hover .arrow-right {
   opacity: 1;
 }
+
+.arrow-down-container {
+  position: absolute;
+  left: 50%;
+  animation-name: moveArrow;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes moveArrow {
+  0% { bottom: 2.4rem; }
+  50% { bottom: 1rem; }
+  100% { bottom: 2.4rem; }
+}
