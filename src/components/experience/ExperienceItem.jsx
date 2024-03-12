@@ -3,7 +3,7 @@ import NCSLogo from '../../image/NCS-Logo.png';
 
 const ExperienceItem = () => {
   return (
-    <div className='experience-item py-5'>
+    <div className='experience-item'>
         <div className='row'>
           <div className='col-md-4 col-sm-12'>
             <img src={NCSLogo} />

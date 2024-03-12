@@ -4,9 +4,16 @@ import ExperienceItem from './ExperienceItem';
 
 const Experience = () => {
   return (
-    <div className='container py-5 my-5' id='experience'>
-      <h3 className='section-title mb-4'><span style={{color: '#555'}}>#</span>experience</h3>
-      <ExperienceItem />
+    <div className='container'>
+      <div className='d-flex align-items-center' id='experience'>
+        <div>
+          <h3 className='section-title mb-4'><span style={{color: '#555'}}>#</span>&nbsp;experience</h3>
+
+          <div className='mt-5'>
+            <ExperienceItem />
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

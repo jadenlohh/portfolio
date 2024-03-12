@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fffdfa !important;
+  margin: 0;
+  font-family: "Rubik", sans-serif !important;
+  font-size: 1.25rem !important;
+}
+
+p {
+  color: #4e4e4e;
+}
+
+.content {
+  width: 80%;
+}
+
+@media (max-width: 575.98px) {
+  body {
+    font-size: 1rem !important;
+  }
+
+  .content {
+    width: 100%;
+  }
+  
+  main {
+    padding: 0 1rem;
+  }
+}

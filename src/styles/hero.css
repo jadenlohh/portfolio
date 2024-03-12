@@ -1,5 +1,6 @@
 .hero {
-  height: 80vh;
+  margin-top: 3rem;
+  margin-bottom: 15rem;
 }
 
 .hero h1 {
@@ -14,7 +15,6 @@
 .btn {
   border: 1px solid black !important;
   box-shadow: -5px 5px #555 !important;
-  transform: translate(0, 0);
   width: 75% !important;
 }
 
@@ -37,6 +37,14 @@
 }
 
 @media (max-width: 575.98px)  {
+  .hero {
+    margin-bottom: 8rem;
+  }
+
+  .portrait-container {
+    margin-top: 1.5rem;
+  }
+
   .portrait {
     width: 100%;
   }
