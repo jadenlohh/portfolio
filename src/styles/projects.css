@@ -14,15 +14,6 @@
   margin-top: 3rem;
 }
 
-.section-body a {
-  text-decoration: none;
-  color: black;
-}
-
-.project-card-container {
-  margin-bottom: 3rem;
-}
-
 .project-card {
   box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
   border-radius: 8px;
@@ -31,14 +22,16 @@
   top: 0;
   position: relative;
   height: 16rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: black;
 }
 
 .project-card:hover {
   top: -8px;
-}
-
-.project-icon {
-  font-size: 2.4rem;
 }
 
 .project-card-title {
@@ -47,6 +40,7 @@
 
 .project-card-description {
   color: #4e4e4e;
+  font-size: 1.1rem;
 }
 
 .programming-languages span {
@@ -56,7 +50,21 @@
 }
 
 @media (max-width: 575.98px)  {
-  .project-card-container {
-    margin-bottom: 1.5rem;
+  #projects {
+    margin-top: 1.5rem;
+    margin-bottom: 8rem;
+  }
+
+  .section-title {
+    font-size: 1.25rem !important;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 253, 250, 0.96);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .section-body {
+    margin-top: 1.5rem;
   }
 }

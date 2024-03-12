@@ -22,7 +22,7 @@ const Projects = () => {
             {
               projects.map((project, index) => {
                 return (
-                  <ProjectItem key={index} name={project.name} description={project.description} programmingLanguagesURL={project.languages_url} websiteLink={project.homepage} githubURL={project.html_url} />
+                  <ProjectItem key={index} name={project.name} description={project.description} programmingLanguagesURL={project.languages_url} websiteURL={project.homepage} githubURL={project.html_url} />
                 )
               })
             }
