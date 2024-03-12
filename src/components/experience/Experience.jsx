@@ -4,14 +4,12 @@ import ExperienceItem from './ExperienceItem';
 
 const Experience = () => {
   return (
-    <div className='container'>
-      <div className='d-flex align-items-center' id='experience'>
-        <div>
-          <h3 className='section-title'><span style={{color: '#555'}}>#</span>&nbsp;experience</h3>
+    <div className='container' id='experience'>
+      <div>
+        <h3 className='section-title'><span style={{color: '#555'}}>#</span>&nbsp;experience</h3>
 
-          <div className='section-body'>
-            <ExperienceItem />
-          </div>
+        <div className='section-body'>
+          <ExperienceItem />
         </div>
       </div>
     </div>

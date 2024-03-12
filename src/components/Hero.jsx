@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className='container hero'>
       <div className='row'>
-        <div className='col-md-6 col-sm-12'>
+        <div className='col-md-6 col-sm-12 hero-textbox'>
           <div className='d-flex flex-column justify-content-center h-100'>
             <div>
               <h1>Jaden Loh</h1>
