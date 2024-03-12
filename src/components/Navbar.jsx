@@ -5,10 +5,10 @@ import '../styles/navbar.css';
 const Navbar = () => {
   return (
     <nav className='navbar justify-content-center'>
-      <a href='/'>Home</a>
-      <a href='#about-me'>About me</a>
-      <a href='#experience'>Experience</a>
-      <a href='#projects'>Projects</a>
+      <a href='/' className='navbar-links'>Home</a>
+      <a href='#about-me' className='navbar-links'>About me</a>
+      <a href='#experience' className='navbar-links'>Experience</a>
+      <a href='#projects' className='navbar-links'>Projects</a>
     </nav>
   )
 }

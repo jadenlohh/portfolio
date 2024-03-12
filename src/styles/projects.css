@@ -1,0 +1,62 @@
+#projects {
+  margin-top: 3rem;
+  margin-bottom: 12rem;
+}
+
+.section-title {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+  z-index: 999;
+}
+
+.section-body {
+  margin-top: 3rem;
+}
+
+.section-body a {
+  text-decoration: none;
+  color: black;
+}
+
+.project-card-container {
+  margin-bottom: 3rem;
+}
+
+.project-card {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border-radius: 8px;
+  padding: 2rem 1.5rem;
+  transition: 0.3s ease;
+  top: 0;
+  position: relative;
+  height: 16rem;
+}
+
+.project-card:hover {
+  top: -8px;
+}
+
+.project-icon {
+  font-size: 2.4rem;
+}
+
+.project-card-title {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.project-card-description {
+  color: #4e4e4e;
+}
+
+.programming-languages span {
+  color: #0A5D8A;
+  margin-right: 0.6rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 575.98px)  {
+  .project-card-container {
+    margin-bottom: 1.5rem;
+  }
+}

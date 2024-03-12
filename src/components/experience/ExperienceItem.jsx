@@ -6,7 +6,9 @@ const ExperienceItem = () => {
     <div className='experience-item'>
         <div className='row'>
           <div className='col-md-4 col-sm-12'>
-            <img src={NCSLogo} className='img-fluid company-logo' />
+            <a href='https://www.ncs.co/en-sg/' target='_blank' rel='noreferrer noopener' style={{ padding: '0' }}>
+              <img src={NCSLogo} className='img-fluid company-logo' />
+            </a>
             
             <p className='mt-4 experience-date'>April 2023 - Current</p>
           </div>
