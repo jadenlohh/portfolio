@@ -22,8 +22,8 @@ const ProjectItem = ({ name, description, programmingLanguagesURL, websiteURL, g
                     <h4 className='project-card-title'>{name}</h4>
                   </div>
 
-                  <div className='col-2'>
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                  <div className='col-2 text-end'>
+                    <i className="fa-solid fa-arrow-up-right-from-square project-card-icon"></i>
                   </div>
                 </div>
 
@@ -50,8 +50,8 @@ const ProjectItem = ({ name, description, programmingLanguagesURL, websiteURL, g
                     <h4 className='project-card-title'>{name}</h4>
                   </div>
 
-                  <div className='col-2'>
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                  <div className='col-2 text-end'>
+                    <i className="fa-solid fa-arrow-up-right-from-square project-card-icon"></i>
                   </div>
                 </div>
 
