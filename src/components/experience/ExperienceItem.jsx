@@ -6,7 +6,7 @@ const ExperienceItem = () => {
     <div className='experience-item'>
         <div className='row'>
           <div className='col-md-4 col-sm-12'>
-            <img src={NCSLogo} />
+            <img src={NCSLogo} className='img-fluid company-logo' />
             
             <p className='mt-4 experience-date'>April 2023 - Current</p>
           </div>
