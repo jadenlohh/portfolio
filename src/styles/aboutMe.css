@@ -6,6 +6,11 @@
 .section-title {
   font-family: 'Open Sans', sans-serif;
   padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.section-body {
+  margin-top: 3rem;
 }
 
 @media (max-width: 575.98px)  {
@@ -19,5 +24,9 @@
     top: 0;
     background-color: rgba(255, 253, 250, 0.96);
     padding: 1rem 0;
+  }
+
+  .section-body {
+    margin-top: 1.5rem;
   }
 }

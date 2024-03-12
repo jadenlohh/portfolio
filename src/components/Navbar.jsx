@@ -4,7 +4,7 @@ import '../styles/navbar.css';
 
 const Navbar = () => {
   return (
-    <nav className='navbar justify-content-center mt-5'>
+    <nav className='navbar justify-content-center'>
       <a href='/'>Home</a>
       <a href='#about-me'>About me</a>
       <a href='#experience'>Experience</a>
