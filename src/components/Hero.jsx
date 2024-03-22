@@ -11,7 +11,7 @@ const Hero = () => {
           <div className='d-flex flex-column justify-content-center h-100'>
             <div>
               <h1>Jaden Loh</h1>
-              <p>Year 3 student at Nanyang Polytechnic</p>
+              <p>Graduate from Nanyang Polytechnic</p>
 
               <button className='btn shadow-none mt-5 py-3 text-start w-100 d-flex justify-content-between download-resume-btn'>
                 <span>Download Resume</span>
