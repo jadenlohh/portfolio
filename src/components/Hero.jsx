@@ -13,10 +13,10 @@ const Hero = () => {
               <h1>Jaden Loh</h1>
               <p>Graduate from Nanyang Polytechnic</p>
 
-              <button className='btn shadow-none mt-5 py-3 text-start w-100 d-flex justify-content-between download-resume-btn'>
+              <a href='https://drive.google.com/file/d/1VMDphUSAsL5PLoMkd9viNqy_ZimAXFyb/view?usp=sharing' target='_blank' rel='noreferrer noopener' className='btn shadow-none mt-5 py-3 text-start w-100 d-flex justify-content-between download-resume-btn' role='button'>
                 <span>Download Resume</span>
                 <span className='arrow-right'><i className='fa-solid fa-arrow-right'></i></span>
-              </button>
+              </a>
             </div>
           </div>
         </div>
