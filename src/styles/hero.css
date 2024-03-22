@@ -1,5 +1,5 @@
 .hero {
-  margin-top: 3rem;
+  margin-top: 6rem;
   margin-bottom: 12rem;
 }
 
@@ -9,7 +9,7 @@
 
 .portrait {
   border-radius: 10px;
-  width: 70%;
+  width: 65%;
 }
 
 .download-resume-btn {
@@ -22,22 +22,9 @@
   transform: translate(1px, -3px);
 }
 
-.arrow-down-container {
-  position: absolute;
-  left: 50%;
-  animation-name: moveArrow;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes moveArrow {
-  0% { bottom: 2.4rem; }
-  50% { bottom: 1rem; }
-  100% { bottom: 2.4rem; }
-}
-
 @media (max-width: 575.98px)  {
   .hero {
+    margin-top: 3rem;
     margin-bottom: 8rem;
   }
 
@@ -51,9 +38,5 @@
 
   .portrait {
     width: 100%;
-  }
-
-  .arrow-down-container {
-    display: none;
   }
 }

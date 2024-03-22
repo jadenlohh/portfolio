@@ -25,10 +25,6 @@ const Hero = () => {
           <img className='img-fluid portrait' src={Portrait} />
         </div>
       </div>
-
-      <div className='arrow-down-container'>
-        <i className='fa-solid fa-arrow-down'></i>
-      </div>
     </div>
   )
 }
