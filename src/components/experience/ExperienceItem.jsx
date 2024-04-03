@@ -10,7 +10,7 @@ const ExperienceItem = () => {
               <img src={NCSLogo} className='img-fluid company-logo' />
             </a>
             
-            <p className='mt-4 experience-date'>April 2023 - Current</p>
+            <p className='mt-4 experience-date'>April 2023 - March 2024</p>
           </div>
 
           <div className='col-md-8 col-sm-12'>
