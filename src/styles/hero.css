@@ -39,6 +39,11 @@
   .portrait {
     width: 100%;
   }
+
+  .download-resume-btn {
+    padding-top: 1.1rem !important;
+    padding-bottom: 1.1rem !important;
+  }
   
   .download-resume-btn:hover {
     transform: none;
