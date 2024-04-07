@@ -44,7 +44,6 @@
 
 .project-card-description {
   color: #4e4e4e;
-  font-size: 1.1rem;
 }
 
 .programming-languages span {
@@ -73,7 +72,8 @@
   }
 
   .project-card {
-    padding: 1.8rem 1.5rem;
+    padding: 1.6rem 1.5rem;
+    height: 14rem;
   }
 
   .project-card:hover {
