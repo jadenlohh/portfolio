@@ -18,9 +18,9 @@ const ExperienceItem = () => {
 
             <p className='experience-description'>
               Developed the UI of a Cybersecurity Mesh Architecture and its functionalities, including
-              the authentication system, 2FA and access control. Besides that, i also help to mirror the
-              production environment to the UAT environment by provisioning and deploying IaC scripts into 
-              the UAT environment.
+              the authentication system, 2FA and access control all from scratch. Besides that, i also help 
+              to mirror the production environment to the UAT environment by provisioning and deploying 
+              IaC scripts into the UAT environment.
             </p>
           </div>
         </div>
