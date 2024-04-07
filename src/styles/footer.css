@@ -1,14 +1,21 @@
 .footer p {
-  font-size: 1rem;
-  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  margin-top: 1rem;
 }
 
 .footer a {
   color: black;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
 .footer a:nth-child(even) {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+}
+
+@media (max-width: 575.98px)  {
+  .footer a:nth-child(even) {
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+  }
 }
